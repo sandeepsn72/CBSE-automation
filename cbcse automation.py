@@ -14,8 +14,8 @@ user_id_field = driver.find_element(By.ID, "MainContent_affno")
 password_field = driver.find_element(By.ID, "MainContent_pwd")
 
 # Enter the credentials
-user_id_field.send_keys("2750121")
-password_field.send_keys("Newqadipur@555")
+user_id_field.send_keys("userid")
+password_field.send_keys("pass")
 
 # Wait for the user to fill in the CAPTCHA and press Enter
 input("Please complete the CAPTCHA and press Enter to continue...")
